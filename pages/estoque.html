@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque | Vitta Café</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>☕ Vitta Café</h1>
+    <p>Controle de Estoque</p>
+</header>
+
+<main class="container">
+
+    <a href="../index.html" class="voltar">← Voltar para o início</a>
+
+    <section class="formulario">
+
+        <h2>Consultar Estoque</h2>
+
+        <button onclick="verificarEstoqueGeral()">
+            Verificar Estoque
+        </button>
+
+        <div id="resultadoEstoque"></div>
+
+    </section>
+
+    <section>
+
+        <h2>Produtos em estoque</h2>
+
+        <div id="listaEstoque" class="lista"></div>
+
+    </section>
+
+</main>
+
+<script src="../js/estoque.js"></script>
+
+</body>
+</html>

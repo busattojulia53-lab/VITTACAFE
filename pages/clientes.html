@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes | Vitta Café</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>☕ Vitta Café</h1>
+    <p>Controle de Clientes</p>
+</header>
+
+<main class="container">
+
+    <a href="../index.html" class="voltar">← Voltar para o início</a>
+
+    <section class="formulario">
+
+        <h2>Cadastrar Cliente</h2>
+
+        <form id="formCliente">
+
+            <label>Nome:</label>
+            <input type="text" id="nomeCliente" required>
+
+            <label>Telefone:</label>
+            <input type="text" id="telefoneCliente" required>
+
+            <label>E-mail:</label>
+            <input type="email" id="emailCliente" required>
+
+            <button type="submit">Cadastrar Cliente</button>
+
+        </form>
+
+    </section>
+
+    <section>
+        <h2>Clientes cadastrados</h2>
+
+        <div id="listaClientes" class="lista"></div>
+    </section>
+
+</main>
+
+<script src="../js/clientes.js"></script>
+
+</body>
+</html>
